@@ -12,11 +12,6 @@
 suppressPackageStartupMessages(require(reshape2)) # for using the 'melt' function
 suppressPackageStartupMessages(require(ggplot2))
 
-## Functions
-percent <- function(x, digits = 2, format = "f", ...) {
-  paste0(formatC(x, format = format, digits = digits, ...), "%")
-}
-
 ## Load Truseq data
 data.alignment = read.table("data/truseq.alignment.summary.SE.txt", sep="\t", header = T, row.names=1, check.names = F)
 data.count = read.table("data/truseq.count.matrix.SE.txt", sep="\t", header = T, row.names=1, check.names = F)
