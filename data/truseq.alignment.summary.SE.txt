@@ -1,0 +1,5 @@
+sample	input.reads	ave.read.len	uniquely.mapped	multiple.mapped	too.many.mapped	too.many.mismatches	too.short	others
+T0A	84950044	74	77347020	0	5071488	0.0	2.94	0.04
+T0B	50155392	74	45856023	0	2945453	0.0	2.66	0.04
+T14A	70866588	74	63742849	0	5260077	0.0	2.59	0.04
+T14B	67206120	74	61332647	0	4372162	0.0	2.2	0.04
