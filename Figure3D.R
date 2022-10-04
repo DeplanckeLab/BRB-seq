@@ -6,10 +6,9 @@
 ##################################################
 
 ## Change working directory
-setwd("/data/gardeux/BRBseq/")
+#setwd("")
 
 ## Load libraries
-suppressPackageStartupMessages(require(edgeR)) # for cpm calculation
 suppressPackageStartupMessages(require(plyr))
 suppressPackageStartupMessages(require(ggplot2))
 
