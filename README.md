@@ -6,7 +6,7 @@ RNA-seq raw data (fastq files) are accessible in ArrayExpress under accession nu
 
 # Count matrices
 The sequencing reads were aligned to the Ensembl r87 gene annotation of the hg38 genome using STAR (version 2.5.3a). Then, using the [BRB-seqTools suite](http://github.com/DeplanckeLab/BRB-seqTools), we performed simultaneously the second demultiplexing and the count of reads/transcripts (UMI) per gene from the R1 FASTQ and the aligned R2 BAM files. This generated two count matrices (reads and UMI) that were used for further analyses. In the case of TruSeq, count matrices were generated with HTSeq (version 0.9.1).
-> **Note:** Count matrices used in the scripts were deposited on this GitHub page, in the **data** folder
+> **Note:** Count matrices used in the scripts were deposited on this GitHub page, in the [**data**](https://github.com/DeplanckeLab/BRB-seq/tree/main/data) folder
 
 # Tool for full analyses of BRB-seq datasets
 The [BRB-seqTools suite](http://github.com/DeplanckeLab/BRB-seqTools) is implemented in Java. The version used in the manuscript (source code and tool) is permanently available under https://doi.org/10.5281/zenodo.2552405. It supports all the required post-sequencing tasks (alignment, counts) up until the generation of the read/UMI count matrix.
