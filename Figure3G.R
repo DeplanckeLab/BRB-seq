@@ -125,7 +125,7 @@ for(i in c(100,500,1000,1500,2000,2500,2900)){
 data.final = data.frame(type="T", cpm=st, depth=-1)
 
 ## I plot the intermediary curves, for the record
-pdf("Figure3G_supp_curve.detection.prob.cpm.pdf", width = 22, height = 8)
+pdf("Figure3G_supp_curve.detection.prob.cpm.pdf", width = 30, height = 8)
 par(mfrow=c(2,9))
 for(t in c("TruSeq", "BRB-seq")){
   for(st in c(10, 5, 4, 3, 2, 1, 0.5, 0.1, 0)) {
